@@ -16,7 +16,7 @@ const usuarios = [
 ];
 
 function validarInput(input){
-    if(input==""){
+    if(input=="" || input==null){
         return false;
     }
     else{
